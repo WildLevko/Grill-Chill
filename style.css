@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+
+.header{
+    background-image: url('https://files.oaiusercontent.com/file-CQB3p4foUEESE1v2oMxhZs?se=2025-02-14T17%3A02%3A54Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc4b5c661-d542-45b6-bd13-26c3bef9cac7.webp&sig=O2biKj50XIyFfMozto1QPzTsWJgw%2BgMmeuxrPqMtY60%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    border-radius: 10px;
+}
+
+body{
+    
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  min-height: 700px;
+  background-color: #dcb246;
+  text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    min-height: 700px;
+    background-color: #bedc46;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+main{
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Bungee';
+}
+
+p{
+  font-family: 'Chewy';
+  font-size: 30px;
+  opacity: 0;
+}
+.burger-menu{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.bun { 
+  width: 550px;
+  height: 140px;
+  background-color: #ffbe23;
+  border-radius: 100px 100px 0 0;
+  border-bottom: 10px solid #d18b00;
+  border-right: 15px solid #ffd580;
+  align-items: center;
+}
+
+.bun:nth-of-type(3) { 
+  height: 100px;
+  border-radius: 0 0 40px 40px;
+  border-top: 15px solid #d18b00;
+  border-right: 15px solid #ffd580;
+  border-bottom: 0px;
+}
+
+.patty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 525px;
+  height: 110px;
+  margin: 10px;
+  border-radius: 40px;
+  background-color: #682d04;
+  border-left: 5px solid #592604;
+  border-bottom: 3px solid #592604;
+  border-right: 10px solid #7f3705;
+  color: #682d04;
+  font-size: 0px;
+  transition: height 0.7s ease-in, color 0.7s ease-in;
+}
+
+.patty:first-of-type {
+  border-top: 5px solid #592604;
+  border-bottom: 10px solid #592604;
+}
+
+.patty:nth-of-type(2) {
+  border-top: 5px solid #592604;
+  border-bottom: 5px solid #592604;
+}
+
+.patty:nth-of-type(3) {
+  border-top: 10px solid #592604;
+}
+
+.patty:hover {
+  height: 260px;
+  color: #ffbe23;
+  font-size: 20px;
+  transition: height 0.4s ease-in, color 0.4s ease-in;
+}
+
+.patty:hover p {
+  opacity: 1;
+  transition: opacity 0.9s;
+}
+.h1-1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(45deg, #ff0000, #ffff00);
+    border-radius: 100px 100px 0 0;
+    width: 50%;
+    text-align: center ;
+    border: 2px double ;
+    margin: 10% 0 0 21%;
+    padding: 20px;
+}
+.dopmenus div{
+  border-radius: 30px;
+  background-color: #dca046;
+  padding: 5px;
+  color: #263000;
+  font-family: cursive;
+  border: 1px solid black;
+}
+.container .dopmenus{
+  border: 2px dashed rgb(88, 52, 7);
+  border-radius: 30px;
+}
+.dopmenus .h1-dm1{
+  color: #f6b400;
+  background-color: #0000005d;
+  border-radius: 150px;
+}
+.dopmenus .h1-dm2{
+  color: #ce7216;
+  background-color: #0000005d;
+  border-radius: 150px;
+}
+.dopmenus .h1-dm3{
+  color: #61a608;
+  background-color: #0000005d;
+  border-radius: 150px;
+}
+.patty .mn{
+  color:#5f750d;
+}
+
+
+canvas {
+  border: 4px double #a35507;
+  background: linear-gradient(90deg, #d30606, rgb(232, 176, 6));
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 25px;
+  border-radius: 20px;
+  background: linear-gradient(55deg, #ff7700, #408000);
+  border: none;
+  color: white;
+}
+button:hover{
+  font-size: 27px;
+  background: black;
+}
+button:active{
+  font-size: 15px;
+  background: black;
+  color: rgb(136, 8, 8);
+}
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  
+
+
+
+footer{
+    margin-top: 30px;
+    background-color: rgb(161, 137, 100);
+    padding: 6px 0;
+    text-align: center;
+}
+footer h2{
+    margin: 10px 0;
+    color:rgb(65, 69, 68);
+    font-size: 19px;
+    font-family: cursive;
+}
+#footer-content a{
+    color: rgb(0, 157, 255);
+    text-decoration: none;
+}
+footer .vers{
+    font-size: 14px;
+    color: #620808;
+    font-family: monospace;
+}
